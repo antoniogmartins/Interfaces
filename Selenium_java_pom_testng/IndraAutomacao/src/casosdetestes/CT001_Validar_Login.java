@@ -30,7 +30,6 @@ public class CT001_Validar_Login {
 	}	
 	@Test(priority=0)
 	public void logar() throws InterruptedException{
-		
      	//Criando uma Objeto da pagina de login
 		
 		//Informar o email e a senha de acesso
@@ -39,7 +38,7 @@ public class CT001_Validar_Login {
 		
 		//Clicar no botão de Logar
 		Login.clickLogin();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 	}
 	
 	@Test(priority=1)

@@ -3,7 +3,7 @@
 <suite name="AutomacaoIndra">
   <test thread-count="5" name="TestAutomatizados_Indra">
       <classes>
-         <class name="casosdetestes.CT_Finalizar_Compra"/>
+         <class name="casosdetestes.CT004_Finalizar_Compra"/>
       </classes>
   </test>
 </suite> <!-- Suite -->

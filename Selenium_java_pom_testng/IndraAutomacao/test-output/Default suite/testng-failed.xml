@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="casosdetestes.CT_Validarlogin">
+      <class name="casosdetestes.CT001_Validar_Login">
         <methods>
-          <include name="navegar"/>
-          <include name="finalizarCompra"/>
-          <include name="deslogar"/>
           <include name="sair"/>
-          <include name="fazerChekout"/>
+          <include name="navegar"/>
+          <include name="coletarInformacao"/>
+          <include name="deslogar"/>
         </methods>
-      </class> <!-- casosdetestes.CT_Validarlogin -->
+      </class> <!-- casosdetestes.CT001_Validar_Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
