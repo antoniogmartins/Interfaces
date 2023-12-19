@@ -9,35 +9,39 @@ public class checkout {
 	
 	WebDriver driver;
 	
-	//Locators for the page title and the logout button
+	//Localizadores
 	By btncheckout = By.xpath("//*[@id=\"cart_contents_container\"]/div/div[2]/a[2]");
 	By field_firstname = By.xpath("//input[@id='first-name']");
 	By field_lastname = By.xpath("//input[@id='last-name']");
 	By field_zipcode = By.xpath("//input[@id='postal-code']");
 	By btncontinue = By.xpath("//input[@value='CONTINUE']");
 	
-	//Constructor that will be automatically called as soon as the object of the class is created
+	//Construtor que ira automaticament chamar o objeto da classe criada
 	public checkout(WebDriver driver) {
 		this.driver=driver;
 	}
 	
-	//Method to capture the page heading
+	//Metodo para clicar no botão de checkout
 	public void fazerCheckout() {
 		driver.findElement(btncheckout).click();
 	}
-	
+
+	//Metodo para informar o Primeiro Nome
 	public void inserirPrimeiroNome() {
 		driver.findElement(field_firstname).sendKeys("Maria");
 	}
 
+	//Metodo para informar o Ultimo Nome
 	public void inserirUltimoNome() {
 		driver.findElement(field_lastname).sendKeys("de Lourdes");
 	}
 
+	//Metodo para informar o Codigo Postal
 	public void inserirZipPostalCode() {
 		driver.findElement(field_zipcode).sendKeys("20240000");
 	}
-
+	
+	//Metodo para clicar no botão de continuar
 	public void continuar() {
 		driver.findElement(btncontinue).click();
 	}
