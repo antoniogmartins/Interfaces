@@ -2,46 +2,14 @@
 
 => Para automatiizar este desafio foi utilizada a linguagem Java e o framework de automação: selenium e como base o Padrão de Objeto (Page Object Model - POM). E, para a geração de relatorios foi utilizado a dependencia TestNg
 
-
-🚀 Collections: 
-#### Nome do Arquivo: ContactList.postman_collection.json 
-
 ### Cadastro/Consulta de Contato
 ## 🔖 Requisitos funcionais
-- [X] Deve retornar 201 ao logar/gerar um token 
-- [X] Deve retornar 201 ao cadastrar um contato
-- [X] Deve retornar 200 ao listar todos os contatos cadastrados
-- [X] Deve retornar 200 ao pesquisar somente por 1 contato existente
-- [X] Deve retornar 200 ao alterar um contato existente
-- [X] Deve retornar 200 ao deletar um contato existente
+- [X] Realizar login ao informar um email e senha validos 
+- [X] Validar a pagina interna após estar logado
+- [X] Selecionar um Produto
+- [X] Realizar Checkout do Produto selecionado 
+- [X] Finalizar a Compra do Produto selecionado
 
-## 🔖 Requisitos Não funcionais
-- [X] Deve retornar 400 (bad request) ao tentar alterar um contato com email invalido
-- [X] Deve retornar 401 (Unauthorized) ao tentar pesquisar um contato sem token
-- [X] Deve retornar 404 (not found) ao tentar pesquisar por um contao inexistente
-- [X] Deve retornar 400 (bad request) ao tentar cadastrar em informar um campo requerido (firstname)
-- [X] Deve retornar 400 (bad request) ao tentar cadastrar em informar um campo requerido (lastname)
-
-
-| campos             | descrição                              | tipo     | obrigatório |
-| :----------------- | :------------------------------------- | :------- | :---------- |
-| firstname          | primeiro nome ao cadastrar um contato  | texto    | sim         |
-| lastname           | segundo nome ao cadastrar um contato   | texto    | sim         |
-| birthdate          | preco total                            | date     | sim         |
-| email              | valor do pagamento do deposito         | texto    | sim         |
-| phone              | data do booking                        | numero   | nao         |
-| street1            | data do checking                       | texto    | sim         |
-| city               | data do checkout                       | texto    | sim         |
-| stateProvince      | necessidades adicionais                | texto    | sim         |
-| postalCode         | necessidades adicionais                | numero   | sim         |
-| coutnry            | necessidades adicionais                | texto    | sim         |
-| owner              | necessidades adicionais                | texto    | sim         |
-| __v                | necessidades adicionais                | texto    | sim         |
-
-
-🔖 => Arquivo(s) contendo a(s) collection(s):
-
-ContactList.postman_collection.json
 
 🚀 Validar a ação de Gerar Token
 
