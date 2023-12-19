@@ -4,8 +4,13 @@
 
 
 ## 🔖 Recursos utilizados
+- JavaSE-17
+- TestNg
+- selenium-java-4.16.1
 
-
+## 🔖 Estrutura e Distribuição do Código
+- Pasta CasosdeTestes => estão disponibilizados as chamadas para execução dos scritps de testes automatizados
+- paginas => estão disponibilizados os scripts utilizando o padrão de projeto: Page Object Model
 
 ## 🔖 Casos de Testes
 - [X] Realizar login após informar um email e senha validos
