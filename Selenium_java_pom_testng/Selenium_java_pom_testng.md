@@ -23,7 +23,6 @@
 - [X] Realizar Checkout do Produto selecionado 
 - [X] Finalizar a Compra do Produto selecionado
 
-
 🚀 Realizar login após informar um email e senha validos
 
 ![Codigo_Fonte_Validar_Login](https://github.com/antoniogmartins/Interfaces/assets/35534493/7cdb21dd-a3e3-4d38-8a45-3cb40f54a13d)
@@ -32,11 +31,13 @@
 
 🚀 Validar a pagina interna após estar logado
 
-
+![Codigo_Fonte_Validar_Pagina_Interna](https://github.com/antoniogmartins/Interfaces/assets/35534493/23b68aa2-128b-4d7a-98b4-61be6d57c8ef)
 
 🚀 Selecionar um Produto
 
+![Codigo_Fonte_Selecionar_Produto](https://github.com/antoniogmartins/Interfaces/assets/35534493/ec0cced3-c90e-4a72-9611-b0306bd5dbed)
 
+![Evidencia_Testes_Selecionar_Produto](https://github.com/antoniogmartins/Interfaces/assets/35534493/91c2e29a-841a-43f8-ad14-72e3e585fc38)
 
 🚀 Realizar Checkout do Produto selecionado
 
