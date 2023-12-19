@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomacaoIndra]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestAutomatizados_Indra(failed)">
+    <classes>
+      <class name="casosdetestes.UC_Validarlogin">
+        <methods>
+          <include name="deslogar"/>
+          <include name="sair"/>
+          <include name="logar"/>
+          <include name="coletarinformacao"/>
+          <include name="navegar"/>
+        </methods>
+      </class> <!-- casosdetestes.UC_Validarlogin -->
+    </classes>
+  </test> <!-- TestAutomatizados_Indra(failed) -->
+</suite> <!-- Failed suite [AutomacaoIndra] -->
