@@ -45,12 +45,13 @@
 ![Evidencia_Testes_Fazer_Checkout](https://github.com/antoniogmartins/Interfaces/assets/35534493/618ece6a-a5a3-453f-aa56-a1593660963f)
 
 🚀 Finalizar a Compra do Produto selecionado
+![Codigo_Fonte_Fazer_FinalizarCompra](https://github.com/antoniogmartins/Interfaces/assets/35534493/de4ad93f-2565-4b44-83d4-ef5a7008efc6)
 
 
 
 🚀 Executando os testes utilizando o TestNG(Relatórios de Execução)
 
-
+![Evidencia_Testes_Relatorio_Final](https://github.com/antoniogmartins/Interfaces/assets/35534493/6703ae9d-efed-4a63-8b53-8acc66cd15fb)
 
 Obs.: É preciso que vc esteja conectado a internet
 
