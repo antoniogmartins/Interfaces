@@ -4,12 +4,13 @@
 
 🚀 **Recursos utilizados**
 - Sop: Linux - Ubuntu22
-- Navegador para execução dos testes: Chrome: //drivers/chromedriver-linux64.zip
+- Navegador para execução dos testes:
+    - Chrome: //drivers/chromedriver-linux64.zip
 - JavaSE-17
 - TestNg
 - Dependencia(s)
-   -   selenium-java - versão 3.141.0
-   -   maven-compiler-plugin versão 3.8.1
+   - selenium-java - versão 3.141.0
+   - maven-compiler-plugin versão 3.8.1
 ## 🔖 Recursos configurados
 ![Captura de ecrã de 2023-12-19 11-20-00](https://github.com/antoniogmartins/Interfaces/assets/35534493/07f89c8d-e880-41c9-b9de-61c67c49a18b)
 
