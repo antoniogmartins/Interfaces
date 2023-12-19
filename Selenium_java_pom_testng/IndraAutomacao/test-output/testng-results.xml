@@ -1,45 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-18T22:35:58 GMT-03:00" name="Default suite" finished-at="2023-12-18T22:36:37 GMT-03:00" duration-ms="39374">
+  <suite started-at="2023-12-19T06:48:03 GMT-03:00" name="Default suite" finished-at="2023-12-19T06:48:18 GMT-03:00" duration-ms="15069">
     <groups>
     </groups>
-    <test started-at="2023-12-18T22:35:58 GMT-03:00" name="Default test" finished-at="2023-12-18T22:36:37 GMT-03:00" duration-ms="39374">
-      <class name="casosdetestes.UC_Validarlogin">
-        <test-method is-config="true" signature="navegar()[pri:0, instance:casosdetestes.UC_Validarlogin@429bffaa]" started-at="2023-12-18T22:35:58 GMT-03:00" name="navegar" finished-at="2023-12-18T22:35:59 GMT-03:00" duration-ms="1141" status="PASS">
+    <test started-at="2023-12-19T06:48:03 GMT-03:00" name="Default test" finished-at="2023-12-19T06:48:18 GMT-03:00" duration-ms="15069">
+      <class name="casosdetestes.CT_Selecionar_Produto">
+        <test-method is-config="true" signature="navegar()[pri:0, instance:casosdetestes.CT_Selecionar_Produto@3e84448c]" started-at="2023-12-19T06:48:03 GMT-03:00" name="navegar" finished-at="2023-12-19T06:48:04 GMT-03:00" duration-ms="1068" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navegar -->
-        <test-method signature="logar()[pri:0, instance:casosdetestes.UC_Validarlogin@429bffaa]" started-at="2023-12-18T22:35:59 GMT-03:00" name="logar" finished-at="2023-12-18T22:36:04 GMT-03:00" duration-ms="4910" status="PASS">
+        <test-method signature="logar()[pri:0, instance:casosdetestes.CT_Selecionar_Produto@3e84448c]" started-at="2023-12-19T06:48:04 GMT-03:00" name="logar" finished-at="2023-12-19T06:48:08 GMT-03:00" duration-ms="4408" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logar -->
-        <test-method signature="coletarInformacao()[pri:1, instance:casosdetestes.UC_Validarlogin@429bffaa]" started-at="2023-12-18T22:36:04 GMT-03:00" name="coletarInformacao" finished-at="2023-12-18T22:36:07 GMT-03:00" duration-ms="3088" status="PASS">
+        <test-method signature="coletarInformacao()[pri:1, instance:casosdetestes.CT_Selecionar_Produto@3e84448c]" started-at="2023-12-19T06:48:08 GMT-03:00" name="coletarInformacao" finished-at="2023-12-19T06:48:11 GMT-03:00" duration-ms="2087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- coletarInformacao -->
-        <test-method signature="selecionarProduto()[pri:2, instance:casosdetestes.UC_Validarlogin@429bffaa]" started-at="2023-12-18T22:36:07 GMT-03:00" name="selecionarProduto" finished-at="2023-12-18T22:36:13 GMT-03:00" duration-ms="6231" status="PASS">
+        <test-method signature="selecionarProduto()[pri:2, instance:casosdetestes.CT_Selecionar_Produto@3e84448c]" started-at="2023-12-19T06:48:11 GMT-03:00" name="selecionarProduto" finished-at="2023-12-19T06:48:16 GMT-03:00" duration-ms="5267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selecionarProduto -->
-        <test-method signature="fazerChekout()[pri:3, instance:casosdetestes.UC_Validarlogin@429bffaa]" started-at="2023-12-18T22:36:13 GMT-03:00" name="fazerChekout" finished-at="2023-12-18T22:36:29 GMT-03:00" duration-ms="15721" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fazerChekout -->
-        <test-method signature="finalizarCompra()[pri:4, instance:casosdetestes.UC_Validarlogin@429bffaa]" started-at="2023-12-18T22:36:29 GMT-03:00" name="finalizarCompra" finished-at="2023-12-18T22:36:33 GMT-03:00" duration-ms="4268" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finalizarCompra -->
-        <test-method signature="deslogar()[pri:5, instance:casosdetestes.UC_Validarlogin@429bffaa]" started-at="2023-12-18T22:36:33 GMT-03:00" name="deslogar" finished-at="2023-12-18T22:36:37 GMT-03:00" duration-ms="3879" status="PASS">
+        <test-method signature="deslogar()[pri:3, instance:casosdetestes.CT_Selecionar_Produto@3e84448c]" started-at="2023-12-19T06:48:16 GMT-03:00" name="deslogar" finished-at="2023-12-19T06:48:18 GMT-03:00" duration-ms="2124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deslogar -->
-        <test-method is-config="true" signature="sair()[pri:0, instance:casosdetestes.UC_Validarlogin@429bffaa]" started-at="2023-12-18T22:36:37 GMT-03:00" name="sair" finished-at="2023-12-18T22:36:37 GMT-03:00" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="sair()[pri:0, instance:casosdetestes.CT_Selecionar_Produto@3e84448c]" started-at="2023-12-19T06:48:18 GMT-03:00" name="sair" finished-at="2023-12-19T06:48:18 GMT-03:00" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sair -->
-      </class> <!-- casosdetestes.UC_Validarlogin -->
+      </class> <!-- casosdetestes.CT_Selecionar_Produto -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

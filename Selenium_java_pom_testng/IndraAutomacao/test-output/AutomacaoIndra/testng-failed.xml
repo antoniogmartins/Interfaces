@@ -3,15 +3,15 @@
 <suite name="Failed suite [AutomacaoIndra]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="TestAutomatizados_Indra(failed)">
     <classes>
-      <class name="casosdetestes.UC_Validarlogin">
+      <class name="casosdetestes.CT_Validarlogin">
         <methods>
+          <include name="navegar"/>
+          <include name="finalizarCompra"/>
           <include name="deslogar"/>
           <include name="sair"/>
-          <include name="logar"/>
-          <include name="coletarinformacao"/>
-          <include name="navegar"/>
+          <include name="fazerChekout"/>
         </methods>
-      </class> <!-- casosdetestes.UC_Validarlogin -->
+      </class> <!-- casosdetestes.CT_Validarlogin -->
     </classes>
   </test> <!-- TestAutomatizados_Indra(failed) -->
 </suite> <!-- Failed suite [AutomacaoIndra] -->

@@ -12,7 +12,7 @@ import paginas.selecionarproduto;
 import paginas.checkout;
 import paginas.finalizarcompra;
 
-public class UC_Validarlogin {
+public class CT004_Finalizar_Compra {
 	
 	WebDriver driver;
 	login Login;
@@ -45,7 +45,7 @@ public class UC_Validarlogin {
 		
 		//Clicar no botão de Logar
 		Login.clickLogin();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 	}
 	
 	@Test(priority=1)
@@ -61,29 +61,29 @@ public class UC_Validarlogin {
 		     System.out.println("O valor do titulo "+Painel.getHeading()+" na Página é diferente do esperado"+valoresperado);
 		}
 		//System.out.println("O nome da página é: "+Painel.getHeading());
-		Thread.sleep(3000);	
+		Thread.sleep(2000);	
 }	
 	
 	@Test(priority=2)
 	public void selecionarProduto() throws InterruptedException{
 		Produto.adicionarproduto();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		Produto.acessarcarrinho();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 	}
 	
 	@Test(priority=3)
 	public void fazerChekout() throws InterruptedException{
 		Checkout.fazerCheckout();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		Checkout.inserirPrimeiroNome();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		Checkout.inserirUltimoNome();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		Checkout.inserirZipPostalCode();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		Checkout.continuar();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 	}
 	
 	@Test(priority=4)
@@ -96,7 +96,7 @@ public class UC_Validarlogin {
 	@Test(priority=5)
 	public void deslogar() throws InterruptedException{
 		Painel.clickLogout();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 	}
 	
 	@AfterTest
