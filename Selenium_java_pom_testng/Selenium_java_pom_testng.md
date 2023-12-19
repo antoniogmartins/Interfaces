@@ -47,7 +47,7 @@
 🚀 Finalizar a Compra do Produto selecionado
 ![Codigo_Fonte_Fazer_FinalizarCompra](https://github.com/antoniogmartins/Interfaces/assets/35534493/de4ad93f-2565-4b44-83d4-ef5a7008efc6)
 
-
+![Captura de ecrã de 2023-12-19 07-30-20](https://github.com/antoniogmartins/Interfaces/assets/35534493/bb77f7fa-520f-4dc8-8798-713c1ea652f2)
 
 🚀 Executando os testes utilizando o TestNG(Relatórios de Execução)
 
