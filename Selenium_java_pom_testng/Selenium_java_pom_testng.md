@@ -6,7 +6,6 @@
 ## 🔖 Recursos utilizados
 - JavaSE-17
 - TestNg
-- Selenium-java-4.16.1
 - Dependencia(s)
    -   selenium-java - versão 3.141.0
    -   maven-compiler-plugin versão 3.8.1
