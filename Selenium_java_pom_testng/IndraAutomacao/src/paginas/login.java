@@ -6,30 +6,29 @@ import org.openqa.selenium.WebDriver;
 public class login {
 	
 	WebDriver driver;
-	//Locator for username field
+	//Localizadores
 	By login = By.xpath("(//input[@id='user-name'])[1]");
 			
-	//Locator for password field
 	By senha = By.xpath("(//input[@id='password'])[1]");
 	
-	//Locator for login button
 	By btnlogin = By.xpath("(//input[@id='login-button'])[1]");
 	
+	//Construtor que ira automaticament chamar o objeto da classe criada
 	public login(WebDriver driver) {
           this.driver = driver;
 	}
 	
-	//Method to enter username
+	//Metodo para entrar com o usuario/email
 	public void enterUsername(String usuario) {
 		driver.findElement(login).sendKeys(usuario);
 	}
 
-	//Method to enter password
+	//Metodo para entrar com a senha
 	public void enterPassword(String password) {
 		driver.findElement(senha).sendKeys(password);
 	}
 	
-	//Method to click on Login button
+	//Metodo para clicar no botão de entrar/logar
 	public void clickLogin() {
 		driver.findElement(btnlogin).click();
 	}

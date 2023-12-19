@@ -9,16 +9,16 @@ public class finalizarcompra {
 	
 	WebDriver driver;
 	
-	//Locators for the page title and the logout button
+	//Localizadores
 	By btnfinalizar = By.xpath("//a[normalize-space()='FINISH']");
 
 	
-	//Constructor that will be automatically called as soon as the object of the class is created
+	//Construtor que ira automaticament chamar o objeto da classe criada
 	public finalizarcompra(WebDriver driver) {
 		this.driver=driver;
 	}
 	
-	//Method to capture the page heading
+	//Metodo para clicar no botão de finalizar a compra
 	public void finalizar() {
 		WebElement elemento = driver.findElement(btnfinalizar);
 	    elemento.click();

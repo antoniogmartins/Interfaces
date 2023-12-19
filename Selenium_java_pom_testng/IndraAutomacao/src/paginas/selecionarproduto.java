@@ -9,20 +9,21 @@ public class selecionarproduto {
 	
 	WebDriver driver;
 	
-	//Locators for the page title and the logout button
+	//Localizadores
 	By addtocart = By.xpath("//div[@class='inventory_list']//div[1]//div[3]//button[1]");
 	By carrinho = By.xpath("//*[@id='shopping_cart_container']/a/span");
 	
-	//Constructor that will be automatically called as soon as the object of the class is created
+	//Construtor que ira automaticament chamar o objeto da classe criada
 	public selecionarproduto(WebDriver driver) {
 		this.driver=driver;
 	}
 	
-	//Method to capture the page heading
+	//Metodo para adicionar um produto na cesta de carrinho
 	public void adicionarproduto() {
 		driver.findElement(addtocart).click();
 	}
-	
+
+	//Metodo para acessar o carrinho
 	public void acessarcarrinho() {
 		driver.findElement(carrinho).click();
 	}
