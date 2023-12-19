@@ -4,6 +4,7 @@
 
 🚀 **Recursos utilizados**
 - Sop: Linux - Ubuntu22
+- Navegador para execução dos testes: Chrome: //drivers/chromedriver-linux64.zip
 - JavaSE-17
 - TestNg
 - Dependencia(s)
