@@ -3,6 +3,7 @@
 => Para automatiizar este desafio de automatizar os testes de um E-Commerce. Para isso foi utilizada a linguagem Java e o framework de automação: selenium e como base e estrutura dos scritps de testes criados foi utilizado o Padrão de Objeto - Page Object Model. Além disso, para a geração de relatorios foi utilizado a dependencia TestNg
 
 🚀 **Recursos utilizados**
+- Sop: Linux - Ubuntu22
 - JavaSE-17
 - TestNg
 - Dependencia(s)
