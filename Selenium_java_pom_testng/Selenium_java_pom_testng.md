@@ -6,11 +6,15 @@
 ## 🔖 Recursos utilizados
 - JavaSE-17
 - TestNg
-- selenium-java-4.16.1
+- Selenium-java-4.16.1
+- Dependencia(s)
+   -   selenium-java - versão 3.141.0
+   -   maven-compiler-plugin versão 3.8.1
+ 
 
 ## 🔖 Estrutura e Distribuição do Código
-- Pasta CasosdeTestes => estão disponibilizados as chamadas para execução dos scritps de testes automatizados
-- paginas => estão disponibilizados os scripts utilizando o padrão de projeto: Page Object Model
+- Pasta: casosdetestes => estão disponibilizados o codigo onde são execução dos scritps de testes automatizados
+- Pasta: paginas => estão disponibilizados os scripts de testes utilizando o padrão de projeto: Page Object Model
 
 ## 🔖 Casos de Testes
 - [X] Realizar login após informar um email e senha validos
@@ -21,6 +25,8 @@
 
 
 🚀 Realizar login após informar um email e senha validos
+
+
 
 
 
@@ -40,26 +46,16 @@
 
 
 
-🚀 Executando os testes utilizando o TestNG
+🚀 Executando os testes utilizando o TestNG(Relatórios de Execução)
 
 
 
-
-
-🚀 Como executar de forma automatica, os smoketests utilizando as apis, por meio do GitActions
 
 Obs.: É preciso que vc esteja conectado a internet
 
 
-🚀 Integracao Continua - Pipeline
-
-
-Os testes foram executados com exito tanto utilizando o gitactions quanto diretamente por meio do Postman.
-
 🚀 Análise Final
 
-
-🚀 Fontes - Documentação da Api:
 
 
 📝 License
