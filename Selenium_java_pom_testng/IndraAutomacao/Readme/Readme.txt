@@ -1,3 +1,6 @@
+Fonte: Todos os scripts de testes automatizados e a documentação foram 
+desenvolvido por ANtonio g. Martins
+
 Desafio:
 
 Instruções para criação do projeto a ser entregue:
