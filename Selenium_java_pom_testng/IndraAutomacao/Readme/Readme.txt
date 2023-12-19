@@ -1,5 +1,5 @@
-Fonte: Todos os scripts de testes automatizados e a documentação foram 
-desenvolvido por ANtonio g. Martins
+Fonte: Todos os artefaots (scripts de testes automatizados e a documentação) foram 
+desenvolvidos por Antonio G. Martins
 
 Desafio:
 
