@@ -40,8 +40,9 @@
 ![Evidencia_Testes_Selecionar_Produto](https://github.com/antoniogmartins/Interfaces/assets/35534493/91c2e29a-841a-43f8-ad14-72e3e585fc38)
 
 🚀 Realizar Checkout do Produto selecionado
+![Codigo_Fonte_Fazer_Checkout](https://github.com/antoniogmartins/Interfaces/assets/35534493/92134e21-9dbf-4461-91fa-c624d8755b81)
 
-
+![Evidencia_Testes_Fazer_Checkout](https://github.com/antoniogmartins/Interfaces/assets/35534493/618ece6a-a5a3-453f-aa56-a1593660963f)
 
 🚀 Finalizar a Compra do Produto selecionado
 
@@ -51,13 +52,10 @@
 
 
 
-
 Obs.: É preciso que vc esteja conectado a internet
 
-
 🚀 Análise Final
-
-
+=> Todos os testes foram executados com exito
 
 📝 License
 
