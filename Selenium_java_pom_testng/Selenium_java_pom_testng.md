@@ -13,7 +13,6 @@
 
 ![Captura de ecrã de 2023-12-19 11-20-12](https://github.com/antoniogmartins/Interfaces/assets/35534493/1c5cbdd8-df28-4022-b232-891cc6b40987)
 
-
 ## 🔖 Estrutura e Distribuição do Código
 - Pasta: casosdetestes => estão disponibilizados o codigo onde são execução dos scritps de testes automatizados
 - Pasta: paginas => estão disponibilizados os scripts de testes utilizando o padrão de projeto: Page Object Model
@@ -25,7 +24,7 @@
 - [X] Realizar Checkout do Produto selecionado 
 - [X] Finalizar a Compra do Produto selecionado
 
-🚀** Realizar login após informar um email e senha validos**
+🚀**Realizar login após informar um email e senha validos**
 
 ![Codigo_Fonte_Validar_Login](https://github.com/antoniogmartins/Interfaces/assets/35534493/7cdb21dd-a3e3-4d38-8a45-3cb40f54a13d)
 
@@ -62,7 +61,7 @@ Obs.: É preciso que vc esteja conectado a internet
 🚀 **Análise Final**
 => Todos os testes foram executados com exito
 
-📝 ** License**
+📝 **License**
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 Feito com 💜  por Antonio Martins 👋   Meu linkedin
