@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-19T20:19:34 GMT-03:00" name="AutomacaoIndra" finished-at="2023-12-19T20:20:10 GMT-03:00" duration-ms="35841">
+    <groups>
+    </groups>
+    <test started-at="2023-12-19T20:19:34 GMT-03:00" name="TestAutomatizados_Indra" finished-at="2023-12-19T20:20:10 GMT-03:00" duration-ms="35841">
+      <class name="casosdetestes.CT004_Finalizar_Compra">
+        <test-method is-config="true" signature="navegar()[pri:0, instance:casosdetestes.CT004_Finalizar_Compra@5403f35f]" started-at="2023-12-19T20:19:34 GMT-03:00" name="navegar" finished-at="2023-12-19T20:19:36 GMT-03:00" duration-ms="1737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navegar -->
+        <test-method signature="logar()[pri:0, instance:casosdetestes.CT004_Finalizar_Compra@5403f35f]" started-at="2023-12-19T20:19:36 GMT-03:00" name="logar" finished-at="2023-12-19T20:19:43 GMT-03:00" duration-ms="7610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logar -->
+        <test-method signature="coletarInformacao()[pri:1, instance:casosdetestes.CT004_Finalizar_Compra@5403f35f]" started-at="2023-12-19T20:19:43 GMT-03:00" name="coletarInformacao" finished-at="2023-12-19T20:19:45 GMT-03:00" duration-ms="2094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coletarInformacao -->
+        <test-method signature="selecionarProduto()[pri:2, instance:casosdetestes.CT004_Finalizar_Compra@5403f35f]" started-at="2023-12-19T20:19:45 GMT-03:00" name="selecionarProduto" finished-at="2023-12-19T20:19:50 GMT-03:00" duration-ms="4381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selecionarProduto -->
+        <test-method signature="fazerChekout()[pri:3, instance:casosdetestes.CT004_Finalizar_Compra@5403f35f]" started-at="2023-12-19T20:19:50 GMT-03:00" name="fazerChekout" finished-at="2023-12-19T20:20:02 GMT-03:00" duration-ms="12260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fazerChekout -->
+        <test-method signature="finalizarCompra()[pri:4, instance:casosdetestes.CT004_Finalizar_Compra@5403f35f]" started-at="2023-12-19T20:20:02 GMT-03:00" name="finalizarCompra" finished-at="2023-12-19T20:20:07 GMT-03:00" duration-ms="5218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalizarCompra -->
+        <test-method signature="deslogar()[pri:5, instance:casosdetestes.CT004_Finalizar_Compra@5403f35f]" started-at="2023-12-19T20:20:07 GMT-03:00" name="deslogar" finished-at="2023-12-19T20:20:10 GMT-03:00" duration-ms="2412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deslogar -->
+        <test-method is-config="true" signature="sair()[pri:0, instance:casosdetestes.CT004_Finalizar_Compra@5403f35f]" started-at="2023-12-19T20:20:10 GMT-03:00" name="sair" finished-at="2023-12-19T20:20:10 GMT-03:00" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sair -->
+      </class> <!-- casosdetestes.CT004_Finalizar_Compra -->
+    </test> <!-- TestAutomatizados_Indra -->
+  </suite> <!-- AutomacaoIndra -->
+</testng-results>
