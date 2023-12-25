@@ -45,7 +45,10 @@
 
 🚀 **CT002.1 - Adicionar Produtos ao Carrinho**
 
+![Codigo_Fonte_Adicionar_Carrinho](https://github.com/antoniogmartins/Interfaces/assets/35534493/27dfe5fb-f6a6-42bf-849b-b8fe8085c188)
 
+
+![Evidencia_Testes_Adicionar_Carrinho](https://github.com/antoniogmartins/Interfaces/assets/35534493/c81eae87-7b70-4b1d-8815-4cbd623058c2)
 
 🚀 **CT002.2 - Remover Produtos do Carrinho**
 
