@@ -69,10 +69,12 @@
 
 🚀 **CT004.1 - Finalizar Compra**
 
+![Codigo_Fonte_Fazer_FinalizarCompra](https://github.com/antoniogmartins/Interfaces/assets/35534493/d4da5d75-8b91-46d7-878d-008d99d8c301)
 
 
 🚀 **CT004.2 - Validar Valor Total da Compra**
 
+![Codigo_Fonte_Validar_Valor_Total_Compra](https://github.com/antoniogmartins/Interfaces/assets/35534493/46b93d78-9921-48c5-b95b-4052822742a5)
 
 
 🚀 **Executando os testes utilizando o TestNG(Relatórios de Execução)**
