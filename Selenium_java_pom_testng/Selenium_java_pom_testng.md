@@ -22,11 +22,11 @@
 
 ## 🔖 Casos de Testes
 - [X] Validar Login de Usuario após informar um email e senha validos
-- [X] Validar Login de Usuario inválidos
+- [X] Validar Login de Usuario inválidos (email/senha nulos ou incorretos)
 - [X] Adicionar Produtos do Carrinho
 - [X] Remover Produtos do Carrinho
-- [X] Fazer Checkout dos Produtos Adicionados no Carrinho
-- [X] Validar Campos dobrigatorios do formulatrio de Checkout
+- [X] Fazer Checkout dos Produtos adicionados no Carrinho
+- [X] Validar Campos obrigatórios do formulatrio de Checkout
 - [X] Finalizar a Compra
 - [X] Validar Valor Total da Compra
 
@@ -53,12 +53,13 @@
 
 ![Codigo_Fonte_Remover_Carrinho](https://github.com/antoniogmartins/Interfaces/assets/35534493/1419ddc4-6259-460f-bd75-003c4727bc69)
 
-
 ![Evidencia_Testes_Remover_Carrinho](https://github.com/antoniogmartins/Interfaces/assets/35534493/a0d27cb0-4869-404b-a669-963924aa2747)
 
 🚀 **CT003.1 - Fazer Checkout**
 
+![Codigo_Fonte_Fazer_Checkout](https://github.com/antoniogmartins/Interfaces/assets/35534493/13d0df0d-dbf3-4800-bb5f-ecda4721f0f4)
 
+![Evidencia_Testes_Fazer_Checkout](https://github.com/antoniogmartins/Interfaces/assets/35534493/022166f9-bd2d-4b6d-83ff-a00eb62707d8)
 
 🚀 **CT003.2 - Validar Campos Checkout**
 
