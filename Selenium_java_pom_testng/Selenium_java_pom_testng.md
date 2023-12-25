@@ -57,7 +57,7 @@
 
 🚀 **Executando os testes utilizando o TestNG(Relatórios de Execução)**
 
-![Evidencia_Testes_Relatorio_Final](https://github.com/antoniogmartins/Interfaces/assets/35534493/6703ae9d-efed-4a63-8b53-8acc66cd15fb)
+![Evidencia_Testes_Relatorio_Final](https://github.com/antoniogmartins/Interfaces/assets/35534493/be6b05e7-698b-4cbc-ad1c-375a3566ec1b)
 
 Obs.: É preciso que vc esteja conectado a internet
 
