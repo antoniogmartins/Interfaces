@@ -59,11 +59,13 @@
 
 ![Codigo_Fonte_Fazer_Checkout](https://github.com/antoniogmartins/Interfaces/assets/35534493/13d0df0d-dbf3-4800-bb5f-ecda4721f0f4)
 
-![Evidencia_Testes_Fazer_Checkout](https://github.com/antoniogmartins/Interfaces/assets/35534493/022166f9-bd2d-4b6d-83ff-a00eb62707d8)
+![Captura de ecrã de 2023-12-25 17-38-24](https://github.com/antoniogmartins/Interfaces/assets/35534493/46987c45-8686-4cf5-bac5-412e0c15aae8)
 
 🚀 **CT003.2 - Validar Campos Checkout**
 
+![Evidencia_Testes_Validar_Checkout](https://github.com/antoniogmartins/Interfaces/assets/35534493/7a0f9c01-d760-4d56-8158-43875e7cf534)
 
+![Evidencia_Testes_Fazer_Checkout](https://github.com/antoniogmartins/Interfaces/assets/35534493/022166f9-bd2d-4b6d-83ff-a00eb62707d8)
 
 🚀 **CT004.1 - Finalizar Compra**
 
