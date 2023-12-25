@@ -10,16 +10,14 @@ import paginas.login;
 import paginas.painel;
 import paginas.selecionarproduto;
 import paginas.checkout;
-import paginas.finalizarcompra;
 
-public class CT004_Finalizar_Compra {
+public class CT003_2_Validar_Campos_Checkout {
 	
 	WebDriver driver;
 	login Login;
 	painel Painel;
 	selecionarproduto Produto;
     checkout Checkout;
-    finalizarcompra Finalizar;
     String valoresperado = "Products";
     
 	@BeforeTest
@@ -31,11 +29,10 @@ public class CT004_Finalizar_Compra {
 	    Painel = new painel(driver);
 	    Produto = new selecionarproduto(driver);
 	    Checkout = new checkout(driver);
-	    Finalizar = new finalizarcompra(driver);
 
 	}	
 	@Test(priority=0)
-	public void logar() throws InterruptedException{
+	public void CT003_2_1_ValidarLogin_Usuario_Valido() throws InterruptedException{
 		
      	//Criando uma Objeto da pagina de login
 		
@@ -49,57 +46,39 @@ public class CT004_Finalizar_Compra {
 	}
 	
 	@Test(priority=1)
-	public void coletarInformacao() throws InterruptedException{
-		//Coletar o nome do titulo da seção na página
-
-		if (Painel.getHeading().equals(valoresperado))
-		{
-			 System.out.println("O valor do titulo "+Painel.getHeading()+" na Página é identico ao esperado: Products");
-		     System.out.println("O nome da página é: "+Painel.getHeading());
-		}
-		else {
-		     System.out.println("O valor do titulo "+Painel.getHeading()+" na Página é diferente do esperado"+valoresperado);
-		}
-		//System.out.println("O nome da página é: "+Painel.getHeading());
-		Thread.sleep(2000);	
-}	
-	
-	@Test(priority=2)
-	public void selecionarProduto() throws InterruptedException{
+	public void CT003_2_2_AdicionarProduto() throws InterruptedException{
+     	//Criando uma Objeto da pagina de Adicionar Produtos
 		Produto.adicionarproduto();
 		Thread.sleep(2000);
 		Produto.acessarcarrinho();
 		Thread.sleep(2000);
 	}
 	
-	@Test(priority=3)
-	public void fazerChekout() throws InterruptedException{
+	@Test(priority=2)
+	public void CT003_2_3_ValidarCamposobrigatorios() throws InterruptedException{
+     	//Criando uma Objeto da pagina de Fazer Checkout e validar Campos
 		Checkout.fazerCheckout();
-		Thread.sleep(2000);
-		Checkout.inserirPrimeiroNome();
-		Thread.sleep(2000);
-		Checkout.inserirUltimoNome();
-		Thread.sleep(2000);
-		Checkout.inserirZipPostalCode();
 		Thread.sleep(2000);
 		Checkout.continuar();
 		Thread.sleep(2000);
+		Checkout.inserirPrimeiroNome();
+		Checkout.continuar();
+		Thread.sleep(2000);
+		Checkout.inserirUltimoNome();
+		Checkout.continuar();
+		Thread.sleep(2000);
+		Checkout.inserirZipPostalCode();
+		Thread.sleep(2000);
+		System.out.println("==============================================================================");
 	}
 	
-	@Test(priority=4)
-	public void finalizarCompra() throws InterruptedException{
-		Thread.sleep(2000);
-		Finalizar.finalizar();
-		Thread.sleep(2000);
-	}
-	
-	@Test(priority=5)
+
+	@AfterTest
 	public void deslogar() throws InterruptedException{
 		Painel.clickLogout();
 		Thread.sleep(2000);
 	}
 	
-	@AfterTest
 	public void sair() throws InterruptedException{
       //Fechando a instancia do Browser
         driver.quit();

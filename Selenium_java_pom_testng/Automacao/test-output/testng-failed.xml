@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="casosdetestes.CT001_Validar_Login">
+      <class name="casosdetestes.CT004_1_Finalizar_Compra">
         <methods>
-          <include name="sair"/>
           <include name="navegar"/>
-          <include name="coletarInformacao"/>
           <include name="deslogar"/>
+          <include name="finalizarCompra"/>
         </methods>
-      </class> <!-- casosdetestes.CT001_Validar_Login -->
+      </class> <!-- casosdetestes.CT004_1_Finalizar_Compra -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

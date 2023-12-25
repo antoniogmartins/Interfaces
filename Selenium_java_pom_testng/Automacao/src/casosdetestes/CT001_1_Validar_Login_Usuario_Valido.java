@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import paginas.login;
 import paginas.painel;
 
-public class CT001_Validar_Login {
+public class CT001_1_Validar_Login_Usuario_Valido {
 	
 	WebDriver driver;
 	login Login;
@@ -27,7 +27,7 @@ public class CT001_Validar_Login {
 
 	}	
 	@Test(priority=0)
-	public void logar() throws InterruptedException{
+	public void CT001_1_1_ValidarLogin_Usuario_Valido() throws InterruptedException{
      	//Criando uma Objeto da pagina de login
 		
 		//Informar o email e a senha de acesso
@@ -40,7 +40,7 @@ public class CT001_Validar_Login {
 	}
 	
 	@Test(priority=1)
-	public void coletarInformacao() throws InterruptedException{
+	public void CT001_1_2_ColetarInformacao() throws InterruptedException{
 		//Coletar o nome do titulo da seção na página
 
 		if (Painel.getHeading().equals(valoresperado))
@@ -49,19 +49,18 @@ public class CT001_Validar_Login {
 		     System.out.println("O nome da página é: "+Painel.getHeading());
 		}
 		else {
-		     System.out.println("O valor do titulo "+Painel.getHeading()+" na Página é diferente do esperado"+valoresperado);
+		     System.out.println("O valor do titulo : "+Painel.getHeading()+" na Página é diferente do esperado"+valoresperado);
 		}
-		//System.out.println("O nome da página é: "+Painel.getHeading());
+		System.out.println("==============================================================================");
 		Thread.sleep(2000);	
 }	
 	
-	@Test(priority=2)
+	@AfterTest
 	public void deslogar() throws InterruptedException{
 		Painel.clickLogout();
 		Thread.sleep(2000);
-	}
+	}	
 	
-	@AfterTest
 	public void sair() throws InterruptedException{
       //Fechando a instancia do Browser
         driver.quit();

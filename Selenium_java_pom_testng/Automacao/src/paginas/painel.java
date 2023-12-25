@@ -9,7 +9,7 @@ public class painel {
 	
 	WebDriver driver;
 	
-	//Localizadores
+	//Localizadores, variaveis
 	By heading = By.xpath("//div[@class='product_label']");
 	By logoutBtn = By.xpath("(//a[normalize-space()='Logout'])[1]");	
 	

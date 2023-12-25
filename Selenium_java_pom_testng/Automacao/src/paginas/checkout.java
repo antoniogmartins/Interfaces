@@ -7,7 +7,7 @@ public class checkout {
 	
 	WebDriver driver;
 	
-	//Localizadores
+	//Localizadores, variaveis
 	By btncheckout = By.xpath("//*[@id=\"cart_contents_container\"]/div/div[2]/a[2]");
 	By field_firstname = By.xpath("//input[@id='first-name']");
 	By field_lastname = By.xpath("//input[@id='last-name']");
