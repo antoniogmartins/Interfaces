@@ -66,7 +66,7 @@
 
 
 
-🚀 **CT004.2 - Validar Valot Total da Compra**
+🚀 **CT004.2 - Validar Valor Total da Compra**
 
 
 
