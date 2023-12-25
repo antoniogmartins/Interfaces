@@ -27,8 +27,8 @@
 - [X] Remover Produtos ao Carrinho
 - [X] Fazer Checkout dos Produtos Adicionados no Carrinho
 - [X] Validar Campos dobrigatorios do formulatrio de Checkout
-- [X] Fianlizar Compra
-- [X] Validar Total da Compra
+- [X] Finalizar a Compra
+- [X] Validar Valor Total da Compra
 
 
 🚀**CT001.1 - Validar Login de um Usuario Válido**
