@@ -1,4 +1,4 @@
-# JAVA (Selenum x Java x POM x TestNg)
+# JAVA (Selenium x Java x POM x TestNg)
 
 => Desafio: Automatizar os testes de um E-Commerce. Para isso foi utilizada a linguagem Java e o framework de automação: selenium e como base foi utilizado o Padrão de Objeto - Page Object Model. E, para a geração de relatorios foi utilizada a dependencia TestNg
 
