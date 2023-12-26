@@ -21,14 +21,14 @@
 - Pasta: paginas => estão disponibilizados os scripts de testes utilizando o padrão de projeto: Page Object Model
 
 ## 🔖 Casos de Testes
-- [X] Validar Login de Usuario após informar um email e senha validos
-- [X] Validar Login de Usuario inválidos (email/senha nulos ou incorretos)
-- [X] Adicionar Produtos do Carrinho
-- [X] Remover Produtos do Carrinho
-- [X] Fazer Checkout dos Produtos adicionados no Carrinho
-- [X] Validar Campos obrigatórios do formulatrio de Checkout
-- [X] Finalizar a Compra
-- [X] Validar Valor Total da Compra
+- [X] CT001.1 - Validar Login de Usuario após informar um email e senha validos
+- [X] CT001.2 - Validar Login de Usuario inválidos (email/senha nulos ou incorretos)
+- [X] CT002.1 - Adicionar Produtos do Carrinho
+- [X] CT002.2 - Remover Produtos do Carrinho
+- [X] CT003.1 - Fazer Checkout dos Produtos adicionados no Carrinho
+- [X] CT003.2 - Validar Campos obrigatórios do formulatrio de Checkout
+- [X] CT004.1 - Finalizar a Compra
+- [X] CT004.2 - Validar Valor Total da Compra
 
 
 🚀**CT001.1 - Validar Login de um Usuario Válido**
