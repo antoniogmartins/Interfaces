@@ -21,14 +21,14 @@
 - [X] CT002.2 - Validar Login de Usuario inválidos (email/senha nulos ou incorretos)
 - [X] CT002.3 - Filtrar Menu
 
-Desconsiderar
+Desconsiderar (inicio)
 - [X] CT002.1 - Adicionar Produtos do Carrinho
 - [X] CT002.2 - Remover Produtos do Carrinho
 - [X] CT003.1 - Fazer Checkout dos Produtos adicionados no Carrinho
 - [X] CT003.2 - Validar Campos obrigatórios do formulatrio de Checkout
 - [X] CT004.1 - Finalizar a Compra
 - [X] CT004.2 - Validar Valor Total da Compra
-
+Desconsiderar (fim)
 
 🚀**CT001 - Acessar Página Inicial**
 
