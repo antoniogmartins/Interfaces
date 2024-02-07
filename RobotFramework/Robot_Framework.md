@@ -1,6 +1,6 @@
 # Robot Framework
 
-=> Desafio: Automatizar os testes de um E-Commerce. Para isso foi utilizada o framework de automação ROBOT FRAMEWORK onde sã gerados relatorios automaticamente a cada execução dos testes
+=> Desafio: Automatizar os testes de um Sistema de Rercursos Humanos online. Para isso foi utilizada o framework de automação ROBOT FRAMEWORK onde sã gerados relatorios automaticamente a cada execução dos testes
 
 🚀 **Recursos utilizados**
 - Sop: Linux - Ubuntu22
@@ -25,29 +25,21 @@
 - [X] CT004.2 - Validar Valor Total da Compra
 
 
-🚀**CT001.1 - Validar Login de um Usuario Válido**
+🚀**CT001 - Validar Login**
 
 
-🚀**CT001.2 - Validar Login de um Usuario Inválido**
+🚀**CT 002 - Validar Titulo**
 
 
-🚀 **CT002.1 - Adicionar Produtos ao Carrinho**
+🚀 **CT 003 - EFetuar Login**
 
 
-🚀 **CT002.2 - Remover Produtos do Carrinho**
+🚀 **CT 004 - Filtrar Menu**
 
 
-🚀 **CT003.1 - Fazer Checkout**
+🚀 **CT 005 - Realizar Pesquisa**
 
 
-🚀 **CT003.2 - Validar Campos Checkout**
-
-
-🚀 **CT004.1 - Finalizar Compra**
-
-
-
-🚀 **CT004.2 - Validar Valor Total da Compra**
 
 
 
