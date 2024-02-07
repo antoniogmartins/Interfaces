@@ -28,7 +28,9 @@ Desconsiderar (inicio)
 - [X] CT003.2 - Validar Campos obrigatórios do formulatrio de Checkout
 - [X] CT004.1 - Finalizar a Compra
 - [X] CT004.2 - Validar Valor Total da Compra
+
 Desconsiderar (fim)
+
 
 🚀**CT001 - Acessar Página Inicial**
 
