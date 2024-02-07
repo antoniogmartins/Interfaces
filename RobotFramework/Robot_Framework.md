@@ -19,7 +19,7 @@
 - [X] CT001.2 - Validar Titulo da Paǵina Inicial
 - [X] CT002.1 - Validar Login de Usuario após informar um email e senha validos
 - [X] CT002.2 - Validar Login de Usuario inválidos (email/senha nulos ou incorretos)
-- [X] CT002.2 - Filtrar Menu
+- [X] CT002.3 - Filtrar Menu
 
 Desconsiderar
 - [X] CT002.1 - Adicionar Produtos do Carrinho
