@@ -1,5 +1,5 @@
 *** Settings ***
-Resource      ../Resources/elementosnatela.robot
+Resource      ../Resources/elementos.robot
 Documentation     Example de como se navegar utilizando o Google Chrome.
 
 *** Variables ***

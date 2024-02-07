@@ -1,10 +1,11 @@
 *** Settings ***
 Resource    ../Resources/abrir_navegador.robot
 Resource    ../Resources/logar.robot
-Resource    ../Resources/verificar_titulo.robot
-Resource    ../Resources/tela_principal.robot
-Resource    ../Resources/tela_pesquisa.robot
-Resource    ../Resources/tela_alterar_registro.robot
+Resource    ../Resources/titulo_principal.robot
+Resource    ../Resources/principal.robot
+Resource    ../Resources/pesquisar_user.robot
+Resource    ../Resources/alterar_user.robot
+Resource    ../Resources/filtrar_menu.robot
 Documentation  Tags in Robot Framework
 
 *** Test Cases ***
@@ -31,7 +32,21 @@ CT 003 - EFetuar Login
     logar.Clicar Botao
     abrir_navegador.Fechar navegador
 
-CT 004 - Realizar Pesquisa
+CT 004 - Filtrar Menu
+    [tags]   Localizar Registro
+    abrir_navegador.Open Browser To Login Page
+    abrir_navegador.Carregar Elementos na Tela Inicial
+    logar.Informar Usuario    ${username}
+    logar.Informar Senha      ${password}
+    logar.Clicar Botao
+    Wait Until Element Is Visible  ${banner_titulo}
+    principal.Carregar Elementos na Tela Principal
+    Wait Until Element Is Visible  ${field_menu}
+    filtrar_menu.Acessar FiltroPesquisadoMenu
+    Capture Page Screenshot
+    abrir_navegador.Fechar navegador
+
+CT 005 - Realizar Pesquisa
     [tags]   Localizar Registro
     abrir_navegador.Open Browser To Login Page
     abrir_navegador.Carregar Elementos na Tela Inicial
@@ -39,14 +54,15 @@ CT 004 - Realizar Pesquisa
     logar.Informar Senha      ${password}
      logar.Clicar Botao
     Wait Until Element Is Visible  ${banner_titulo}
-    tela_principal.Carregar Elementos na Tela Principal
-    tela_pesquisa.Clicar no Menu Admin
+    principal.Carregar Elementos na Tela Principal
+    pesquisar_user.Clicar no Menu Admin
     Wait Until Element Is Visible  ${field_pesquisa}
-    tela_pesquisa.Acessar FiltroPesquisa
+    pesquisar_user.Acessar FiltroPesquisa
     Capture Page Screenshot
-    tela_pesquisa.Clicar no botao Pesquisar
+    pesquisar_user.Clicar no botao Pesquisar
+    abrir_navegador.Fechar navegador
 
-CT 5 - Alterar Registro
+CT 006 - Alterar Registro
     [tags]   Alterar Registro
     abrir_navegador.Open Browser To Login Page
     abrir_navegador.Carregar Elementos na Tela Inicial
@@ -54,11 +70,11 @@ CT 5 - Alterar Registro
     logar.Informar Senha      ${password}
     logar.Clicar Botao
     Wait Until Element Is Visible  ${banner_titulo}
-    tela_principal.Carregar Elementos na Tela Principal
-    tela_pesquisa.Clicar no Menu Admin
+    principal.Carregar Elementos na Tela Principal
+    pesquisar_user.Clicar no Menu Admin
     Wait Until Element Is Visible  ${field_pesquisa}
-    tela_pesquisa.Acessar FiltroPesquisa
-    tela_pesquisa.Clicar no botao Pesquisar
+    pesquisar_user.Acessar FiltroPesquisa
+    pesquisar_user.Clicar no botao Pesquisar
     Wait Until Element Is Visible  ${botao_alterar}
     Capture Page Screenshot
-    tela_alterar_registro.Clicar em Alterar
+    alterar_user.Clicar em Alterar
