@@ -9,7 +9,7 @@ Resource    ../Resources/filtrar_menu.robot
 Documentation  Tags in Robot Framework
 
 *** Test Cases ***
-CT 001 - Validar Login
+CT 001 - Acessar Página Inicial
     [tags]   Abrir Navegador
     Capture Page Screenshot
     abrir_navegador.Open Browser To Login Page
@@ -78,3 +78,4 @@ CT 006 - Alterar Registro
     Wait Until Element Is Visible  ${botao_alterar}
     Capture Page Screenshot
     alterar_user.Clicar em Alterar
+    abrir_navegador.Fechar navegador
