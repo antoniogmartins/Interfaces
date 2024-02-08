@@ -1,7 +1,7 @@
 # Robot Framework (em andamento)
 
 ## 🔖 Casos de Testes
-- [ ] ----------------------------------------- Gerenciamento do Usuario -----------------------------------------------
+- [ ] ----------------Manutenção do Tipo de Trabalho ----------------
 - [X] CT005.1 - Tela ADMIN - Adicionar um Titulo ao Tipo Trabalho
 - [X] CT005.2 - Tela ADMIN - Alterar dados de um Tipo de Trabalho
 - [X] CT005.3 - Tela ADMIN - Deletar um Tipo de Trabalho
