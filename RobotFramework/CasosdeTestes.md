@@ -35,9 +35,15 @@
 - [X] CT004.5 - Tela ADMIN - Deletar um Usuario
 
 ## 🔖 Evidências
-🚀**CT004.1 - Filtrar Menu**
+🚀**CT004.1 - Tela ADMIN - Realizar Pesquisa por um determinado Usuario**
 
+🚀**CT004.2 - Tela ADMIN - Limpar Pesquisa**
 
+🚀**CT004.3 - Tela ADMIN - Adicionar um Usuario**
+
+🚀**CT004.4 - Tela ADMIN - Alterar dados de um Usuario**
+
+🚀**CT004.5 - Tela ADMIN - Deletar um Usuario**
 
 📝 **License**
 
