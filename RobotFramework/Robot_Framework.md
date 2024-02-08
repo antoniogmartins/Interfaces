@@ -15,35 +15,11 @@ ROBOT FRAMEWORK onde sã gerados relatorios automaticamente a cada execução do
 - Pasta: casosdetestes => estão disponibilizados o codigo onde são execução dos scritps de testes automatizados
 - Pasta: paginas => estão disponibilizados os scripts de testes utilizando o padrão de projeto: Page Object Model
 
-## 🔖 Casos de Testes
+## 🔖 Casos de Testes/Eviências dos Testes
 Ao clicar em [Casos de Testes](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/CasosdeTestes.md)
 você podera ter acesso a listagem de Casos de Testes criados
 
-## 🔖 Evidências
 
-🚀**CT001 - Acessar Página Inicial**
-
-Evidências
-
-🚀**CT 002 - Validar Titulo**
-
-Evidências
-
-🚀 **CT 003 - Validar Login**
-
-Evidências
-
-🚀 **CT 003 - Validar Login Inválido**
-
-Evidências
-
-🚀 **CT 004 - Filtrar Menu**
-
-Evidências
-
-🚀 **CT 005 - Realizar Pesquisa**
-
-Evidências
 
 
 
