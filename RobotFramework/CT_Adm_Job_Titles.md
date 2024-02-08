@@ -2,23 +2,16 @@
 
 ## 🔖 Casos de Testes
 - [ ] ----------------------------------------- Gerenciamento do Usuario -----------------------------------------------
-- [X] CT004.1 - Tela ADMIN - Realizar Pesquisa por um determinado Usuario
-- [X] CT004.2 - Tela ADMIN - Limpar Pesquisa
-- [X] CT004.3 - Tela ADMIN - Adicionar um Usuario
-- [X] CT004.4 - Tela ADMIN - Alterar dados de um Usuario
-- [X] CT004.5 - Tela ADMIN - Deletar um Usuario
+- [X] CT005.1 - Tela ADMIN - Adicionar um Titulo ao Tipo Trabalho
+- [X] CT005.2 - Tela ADMIN - Alterar dados de um Tipo de Trabalho
+- [X] CT005.3 - Tela ADMIN - Deletar um Tipo de Trabalho
 
 ## 🚀 Evidências
-🚀**CT004.1 - Tela ADMIN - Realizar Pesquisa por um determinado Usuario**
+🚀**CT005.1 - Tela ADMIN - Adicionar um Titulo ao Tipo Trabalho**
 
-🚀**CT004.2 - Tela ADMIN - Limpar Pesquisa**
+🚀**CT005.2 - Tela ADMIN - Alterar dados de um Tipo de Trabalho**
 
-🚀**CT004.3 - Tela ADMIN - Adicionar um Usuario**
-
-🚀**CT004.4 - Tela ADMIN - Alterar dados de um Usuario**
-
-🚀**CT004.5 - Tela ADMIN - Deletar um Usuario**
-
+🚀**CT005.3 - Tela ADMIN - Deletar um Tipo de Trabalho**
 
 📝 **License**
 
