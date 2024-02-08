@@ -1,4 +1,4 @@
-# Robot Framework (em andamento)
+# Robot Framework (em construção)
 
 => Desafio: Automatizar os testes de um Sistema de Rercursos Humanos online. Para isso foi utilizada o framework de automação 
 ROBOT FRAMEWORK onde sã gerados relatorios automaticamente a cada execução dos testes
