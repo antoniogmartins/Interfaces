@@ -8,9 +8,7 @@
 ## 🚀 Evidências
 🚀**CT001.1 - Acessar Página Inicial**
 
-https://raw.githubusercontent.com/antoniogmartins/Interfaces/main/RobotFramework/Evidencias/Casos_Testes/CT001.1%20-%20Acessar%20P%C3%A1gina%20Inicial.png
-
-https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/Evidencias/Casos_Testes/CT001.1%20-%20Acessar%20P%C3%A1gina%20Inicial.png
+![Captura de ecrã de 2023-12-19 11-20-00](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/Evidencias/Casos_Testes/CT001.1%20-%20Acessar%20P%C3%A1gina%20Inicial.png)
 
 🚀**CT001.2 - Validar Titulo da Pagina Inicial**
 
