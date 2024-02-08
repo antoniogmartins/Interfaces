@@ -1,15 +1,17 @@
 # Robot Framework (em andamento)
 
 ## 🔖 Casos de Testes
-- [ ] ------------------------------------------ Tela Incial ------------------------------------------------- 
-- [X] CT001.1 - Acessar Página Inicial
-- [X] CT001.2 - Validar Titulo da Paǵina Inicial
+- [ ] ------------------------------------------ Validar Login/Senha ------------------------------------------------- 
+- [X] CT002.1 - Efetuar Login com Usuario/Senha Válidos
+- [X] CT002.2 - Efetuar Login com Usuário/Senha Inválidos
+- [X] CT002.3 - Efetuar Login sem Usuario/Senha
 
 ## 🚀 Evidências
-🚀**CT001.1 - Acessar Página Inicial**
+🚀**CT002.1 - Efetuar Login com Usuario/Senha Validos**
 
-🚀**CT001.2 - Validar TItulo da Pagina Inicial**
+🚀**CT002.2 - Efetuar Login com Usuario/Senha Inválidos**
 
+🚀**CT002.3 - Efetuar Login sem Usuário/Senha**
 
 📝 **License**
 
