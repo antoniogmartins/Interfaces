@@ -16,8 +16,10 @@ ROBOT FRAMEWORK onde sã gerados relatorios automaticamente a cada execução do
 - Pasta: paginas => estão disponibilizados os scripts de testes utilizando o padrão de projeto: Page Object Model
 
 ## 🔖 Casos de Testes/Evidências dos Testes
-Ao clicar em [Casos de Testes/Evidências](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/CasosdeTestes.md)
-você podera ter acesso a listagem de Casos de Testes e Eviências criadas
+
+| Casos de Testes             | descrição                                      | Veja mais detalhes |
+| :-----------------          | :--------------------------------------------- | :----------------- |
+| Tela Inicial                | cobertura em cima da tela principal            | [link](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/CT_TelaInicial.md)      |
 
 
 🚀 **Executando os testes utilizando o RobotFramework(Relatórios de Execução)**
