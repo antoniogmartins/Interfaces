@@ -17,9 +17,12 @@ ROBOT FRAMEWORK onde sã gerados relatorios automaticamente a cada execução do
 
 ## 🔖 Casos de Testes/Evidências dos Testes
 
-| Casos de Testes             | descrição                                      | Veja mais detalhes |
-| :-----------------          | :--------------------------------------------- | :----------------- |
-| Tela Inicial                | cobertura em cima da tela principal            | [link](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/CT_TelaInicial.md)      |
+| Casos de Testes             | descrição                                                                            | Veja mais detalhes |
+| :-----------------          | :----------------------------------------------------------------------------------- | :----------------- |
+| Tela Inicial                | cobertura dos testes em cima da tela principal                                       | [link](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/CT_TelaInicial.md)|
+| Validr Login/Senha          | cobertura dos testes para validar login/senha                                        | [link](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/CT_TelaInicial.md)|
+| Menu                        | cobertura dos testes para validar o menu da tela principal                           | [link](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/CT_TelaInicial.md)|
+
 
 
 🚀 **Executando os testes utilizando o RobotFramework(Relatórios de Execução)**
