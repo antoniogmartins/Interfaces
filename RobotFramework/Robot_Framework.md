@@ -17,15 +17,10 @@ ROBOT FRAMEWORK onde sã gerados relatorios automaticamente a cada execução do
 
 ## 🔖 Casos de Testes/Eviências dos Testes
 Ao clicar em [Casos de Testes](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/CasosdeTestes.md)
-você podera ter acesso a listagem de Casos de Testes criados
-
-
-
-
+você podera ter acesso a listagem de Casos de Testes e Eviências criadas
 
 
 🚀 **Executando os testes utilizando o TestNG(Relatórios de Execução)**
-
 
 Obs.: É preciso que vc esteja conectado a internet
 
