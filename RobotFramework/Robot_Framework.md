@@ -23,13 +23,13 @@ ROBOT FRAMEWORK onde sã gerados relatorios automaticamente a cada execução do
 - [X] CT002.2 - Efetuar Login com Usuário/Senha Inválidos
 - [X] CT002.3 - Efetuar Login sem Usuario/Senha
 - [ ] -----------------------------------------  --- Tela Principal ---------------------------------------------------- 
-- [X] CT002.3 - Filtrar Menu
+- [X] CT003.1 - Filtrar Menu
 - [ ] ----------------------------------------- Gerenciamento do Usuario -----------------------------------------------
-- [X] CT003.1 - Tela ADMIN - Realizar Pesquisa
-- [X] CT003.2 - Tela ADMIN - Limpar Pesquisa
-- [X] CT003.3 - Tela ADMIN - Adicionar Registro
-- [X] CT003.4 - Tela ADMIN - Alterar Registro
-- [X] CT003.5 - Tela ADMIN - Deletar Registro
+- [X] CT004.1 - Tela ADMIN - Realizar Pesquisa por um determinado Usuario
+- [X] CT004.2 - Tela ADMIN - Limpar Pesquisa
+- [X] CT004.3 - Tela ADMIN - Adicionar um Usuario
+- [X] CT004.4 - Tela ADMIN - Alterar dados de um Usuario
+- [X] CT004.5 - Tela ADMIN - Deletar um Usuario
 
 
 🚀**CT001 - Acessar Página Inicial**
