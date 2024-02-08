@@ -20,7 +20,7 @@ Ao clicar em [Casos de Testes/Evidências](https://github.com/antoniogmartins/In
 você podera ter acesso a listagem de Casos de Testes e Eviências criadas
 
 
-🚀 **Executando os testes utilizando o RobotFRamework(Relatórios de Execução)**
+🚀 **Executando os testes utilizando o RobotFramework(Relatórios de Execução)**
 
 Obs.: É preciso que vc esteja conectado a internet
 
