@@ -12,10 +12,14 @@ Resource      ../Resources/elementos.robot
 Informar Usuario/Senha Válidos
     click element  ${field_usuario}
     Input Text     ${field_usuario}  ${username}
+    click element  ${field_senha}
+    Input Text     ${field_senha}    ${password}
     
 Informar Usuario/Senha Inválidos
     click element  ${field_usuario}
     Input Text     ${field_usuario}  ${usernamenew}
+    click element  ${field_senha}
+    Input Text     ${field_senha}  ${password}
 
 Validar mensagem Usuario/Senhas invalidos
     Wait Until Element Is Visible  ${msg_user_invalido}
