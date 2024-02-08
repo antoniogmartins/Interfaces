@@ -31,7 +31,7 @@ ROBOT FRAMEWORK onde sã gerados relatorios automaticamente a cada execução do
 - [X] CT004.4 - Tela ADMIN - Alterar dados de um Usuario
 - [X] CT004.5 - Tela ADMIN - Deletar um Usuario
 
-Veja mais detalhes: 
+Veja mais detalhes:  [Veja mais](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/CasosdeTestes.md)
 
 
 🚀**CT001 - Acessar Página Inicial**
