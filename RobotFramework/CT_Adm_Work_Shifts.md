@@ -18,8 +18,3 @@
 This project is licensed under the MIT License - see the LICENSE file for details.
 Feito com 💜  por Antonio Martins 👋   Meu linkedin
 📝 **License**
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-Feito com 💜  por Antonio Martins 👋   Meu linkedin
-
-
