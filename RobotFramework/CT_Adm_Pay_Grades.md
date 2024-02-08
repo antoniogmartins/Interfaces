@@ -1,7 +1,7 @@
 # Robot Framework (em andamento)
 
 ## 🔖 Casos de Testes
-- [ ] ----------------Manutenção do Grade de Pagamento ----------------
+- [ ] -------------Manutenção da Grade de Pagamento ----------------
 - [X] CT006.1 - Tela ADMIN - Adicionar uma Grade de Pagamento
 - [X] CT006.2 - Tela ADMIN - Alterar dados de uma Grade de Pagamento
 - [X] CT006.3 - Tela ADMIN - Deletar uma Grade de Pagamento
