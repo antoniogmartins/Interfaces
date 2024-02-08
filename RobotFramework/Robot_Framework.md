@@ -47,8 +47,9 @@ ROBOT FRAMEWORK onde sã gerados relatorios automaticamente a cada execução do
 
 
 🚀 **Executando os testes utilizando o RobotFramework(Relatórios de Execução)**
+![Captura de ecrã de 2023-12-19 11-20-00](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/Evidencias/Execu%C3%A7%C3%A3o%20dos%20Testes/Relatorio%20de%20Testes.png
+)
 
-Obs.: É preciso que vc esteja conectado a internet
 
 🚀 **Análise Final**
 => Todos os testes foram executados com exito
