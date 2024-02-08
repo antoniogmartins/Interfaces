@@ -16,6 +16,12 @@
 - [X] CT004.4 - Tela ADMIN - Alterar dados de um Usuario
 - [X] CT004.5 - Tela ADMIN - Deletar um Usuario
 
+## 🔖 Evidências
+
+🚀**CT001 - Acessar Página Inicial**
+
+Evidências
+
 
 📝 **License**
 
