@@ -28,6 +28,9 @@ ROBOT FRAMEWORK onde sã gerados relatorios automaticamente a cada execução do
 | 07 - Manutenção do Tipo de Contrato de Trabalho              | Validar a Manutenção do Tipo de Contrato de Trabalho                | [link](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/CT_Adm_Employment_Status.md) (Não Iniciado)                                             |                        
 | 08 - Manutenção do Tipo de Categorias                        | Validar a Manutenção do Tipo de Categorias                          | [link](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/CT_Adm_Job_Categories.md) (Não Iniciado)                                                |                        | 09 - Manutenção dos Turnos de Trabalho                       | Validar a Manutenção dos Turnos de Trabalho                         | [link](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/CT_Adm_Work_Shifts.md) (Não Iniciado)                                                   |                          
 
+
+
+
 🚀 **Executando os testes utilizando o RobotFramework(Relatórios de Execução)**
 
 Obs.: É preciso que vc esteja conectado a internet
