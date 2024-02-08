@@ -27,21 +27,27 @@
 
 
 🚀**CT001 - Acessar Página Inicial**
+
 Evidências
 
 🚀**CT 002 - Validar Titulo**
+
 Evidências
 
 🚀 **CT 003 - Validar Login**
+
 Evidências
 
 🚀 **CT 003 - Validar Login Inválido**
+
 Evidências
 
 🚀 **CT 004 - Filtrar Menu**
+
 Evidências
 
 🚀 **CT 005 - Realizar Pesquisa**
+
 Evidências
 
 
