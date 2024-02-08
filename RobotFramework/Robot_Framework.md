@@ -23,7 +23,7 @@ ROBOT FRAMEWORK onde sã gerados relatorios automaticamente a cada execução do
 - [X] CT002.3 - Efetuar Login sem Usuario/Senha 
 - [X] CT002.3 - Filtrar Menu
 - [X] CT003.1 - Tela ADMIN - Realizar Pesquisa
-- [X] CT003.2 - Tela ADMIN - Resetar Pesquisa
+- [X] CT003.2 - Tela ADMIN - Limpar Pesquisa
 - [X] CT003.3 - Tela ADMIN - Adicionar Registro
 - [X] CT003.4 - Tela ADMIN - Alterar Registro
 - [X] CT003.5 - Tela ADMIN - Deletar Registro
