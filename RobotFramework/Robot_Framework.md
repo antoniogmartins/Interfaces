@@ -17,12 +17,12 @@ ROBOT FRAMEWORK onde sã gerados relatorios automaticamente a cada execução do
 
 ## 🔖 Casos de Testes/Evidências dos Testes
 
-| Casos de Testes             | Descrição                                                                            | Veja mais detalhes |
+| Casos de Testes             | Descrição (Cobertura dos testes)                                                     | Veja mais detalhes |
 | :-----------------          | :----------------------------------------------------------------------------------- | :----------------- |
-| Tela Inicial                | cobertura dos testes em cima da tela principal                                       | [link](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/CT_TelaInicial.md)|
-| Validar Login/Senha          | cobertura dos testes para validar login/senha                                       | [link](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/CT_Login_Senha.md)|
-| Menu                        | cobertura dos testes para validar o menu da tela principal                           | [link](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/CT_Menu.md)|
-| Gerenciamento do Usuario    | cobertura dos testes para validar o  Gerenciamento do Usuario                        | [link](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/CT_Gerenciamento_Usuario.md)|
+| Tela Inicial                | Validar a Tela principal                                                             | [link](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/CT_TelaInicial.md)|
+| Validar Login/Senha         | Validar login/senha                                                                  | [link](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/CT_Login_Senha.md)|
+| Menu                        | Validar o menu da tela principal                                                     | [link](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/CT_Menu.md)|
+| Gerenciamento do Usuario    | Validar o  Gerenciamento do Usuario                                                  | [link](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/CT_Gerenciamento_Usuario.md)|
 
 
 🚀 **Executando os testes utilizando o RobotFramework(Relatórios de Execução)**
