@@ -17,9 +17,12 @@
 ## 🔖 Casos de Testes
 - [X] CT001.1 - Acessar Página Inicial
 - [X] CT001.2 - Validar Titulo da Paǵina Inicial
-- [X] CT002.1 - Validar Login de Usuario após informar um email e senha validos
-- [X] CT002.2 - Validar Login de Usuario inválidos (email/senha nulos ou incorretos)
+- [X] CT002.1 - Efetuar Login com Usuario/Senha Válidos
+- [X] CT002.2 - Efetuar Login com Usuário/Senha Inválidos
+- [X] CT002.3 - Efetuar Login sem Usuario/Senha 
 - [X] CT002.3 - Filtrar Menu
+- [X] CT003.1 - Tela ADMIN - Realizar Pesquisa
+- [X] CT003.2 - Tela ADMIN - Alterar Registro
 
 Desconsiderar (inicio)
 - [X] CT002.1 - Adicionar Produtos do Carrinho
