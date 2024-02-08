@@ -11,13 +11,23 @@
 ## 🚀 Evidências
 🚀**CT004.1 - Tela ADMIN - Realizar Pesquisa por um determinado Usuario**
 
+![Captura de ecrã de 2023-12-19 11-20-00]()
+
 🚀**CT004.2 - Tela ADMIN - Limpar Pesquisa**
+
+![Captura de ecrã de 2023-12-19 11-20-00]()
 
 🚀**CT004.3 - Tela ADMIN - Adicionar um Usuario**
 
+![Captura de ecrã de 2023-12-19 11-20-00]()
+
 🚀**CT004.4 - Tela ADMIN - Alterar dados de um Usuario**
 
+![Captura de ecrã de 2023-12-19 11-20-00]()
+
 🚀**CT004.5 - Tela ADMIN - Deletar um Usuario**
+
+![Captura de ecrã de 2023-12-19 11-20-00]()
 
 
 📝 **License**
