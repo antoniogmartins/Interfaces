@@ -12,6 +12,7 @@
 
 🚀**CT001.2 - Validar Titulo da Pagina Inicial**
 
+![Captura de ecrã de 2023-12-19 11-20-00](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/Evidencias/Casos_Testes/CT001.2%20-%20Validar%20Titulo%20da%20Pa%C7%B5ina%20Inicial.png)
 
 📝 **License**
 
