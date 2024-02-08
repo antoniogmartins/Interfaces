@@ -10,11 +10,18 @@ ROBOT FRAMEWORK onde sã gerados relatorios automaticamente a cada execução do
 - RobotFramewok
 
 ## 🔖 Recursos configurados
-Python 
-Robot Framework - versão:
+- Python 
+
+- Robot Framework - versão:
 
 ## 🔖 Estrutura e Distribuição do Código
-- Pasta: casosdetestes => estão disponibilizados o codigo onde são execução dos scritps de testes automatizados
+- Pasta: casosdetestes => estão disponibilizados os casos de testes onde serão execução e chamaram os scripts de testes automatizados
+  Distribuição:
+  01 - CT_tela_Inicial
+  02 - CT_tela_login_senha
+  03 - CT_tela_principal_menu
+  04 - CT_tela_admin
+
 - Pasta: paginas => estão disponibilizados os scripts de testes utilizando o padrão de projeto: Page Object Model
 
 ## 🔖 Casos de Testes/Evidências dos Testes
