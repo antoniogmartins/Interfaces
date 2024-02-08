@@ -16,7 +16,6 @@ ROBOT FRAMEWORK onde sã gerados relatorios automaticamente a cada execução do
 
 ## 🔖 Estrutura e Distribuição do Código
 - Pasta: casosdetestes => estão disponibilizados os casos de testes onde serão execução e chamaram os scripts de testes automatizados
-  Distribuição:
   
   01 - CT_tela_Inicial
   
@@ -26,7 +25,10 @@ ROBOT FRAMEWORK onde sã gerados relatorios automaticamente a cada execução do
 
   04 - CT_tela_admin
 
-- Pasta: paginas => estão disponibilizados os scripts de testes utilizando o padrão de projeto: Page Object Model
+- Pasta: Resources => estão disponibilizados os scripts de testes automatizados desenvolvidos no Robot Framework
+
+- Pasta: Resultados/Rsults => estão disponibilizados os relatorios de execução dos casos de testes
+  
 
 ## 🔖 Casos de Testes/Evidências dos Testes
 
