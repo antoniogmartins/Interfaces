@@ -25,10 +25,16 @@ ROBOT FRAMEWORK onde sã gerados relatorios automaticamente a cada execução do
 
   04 - CT_tela_admin
 
-- Pasta: Resources => estão disponibilizados os scripts de testes automatizados desenvolvidos no Robot Framework
+- Pastas: 
 
-- Pasta: Resultados/Rsults => estão disponibilizados os relatorios de execução dos casos de testes
+Resources => estão disponibilizados os scripts de testes automatizados desenvolvidos no Robot Framework
+
+Resultados/Results => estão disponibilizados os relatorios de execução dos casos de testes em formato html. Entre eles: log.html, report.html, output.xml
   
+Evidências => onde se encontram arquivadas as evidencias dos testes
+
+
+
 
 ## 🔖 Casos de Testes/Evidências dos Testes
 
