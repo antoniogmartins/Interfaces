@@ -15,7 +15,7 @@
 
 🚀**CT004.2 - Tela ADMIN - Limpar Pesquisa**
 
-![Captura de ecrã de 2023-12-19 11-20-00]()
+![Captura de ecrã de 2023-12-19 11-20-00](https://github.com/antoniogmartins/Interfaces/blob/main/RobotFramework/Evidencias/Casos_Testes/CT004.4%20-%20Tela%20ADMIN%20-%20Alterar%20dados%20de%20um%20Usuario.png)
 
 🚀**CT004.3 - Tela ADMIN - Adicionar um Usuario**
 
