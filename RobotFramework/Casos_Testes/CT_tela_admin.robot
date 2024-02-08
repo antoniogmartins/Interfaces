@@ -26,7 +26,31 @@ CT 007 - Tela ADMIN - Realizar Pesquisa
     pesquisar_user.Clicar no botao Pesquisar
     navegar.Fechar navegador
 
-CT 008 - Tela ADMIN - Alterar Registro
+CT 008 - Tela ADMIN - Resetar Pesquisa
+    [tags]   Resetar a Pesquisa
+    navegar.Open Browser To Login Page
+    navegar.Carregar Elementos na Tela Inicial
+    logar.Informar Usuario/Senha Válidos
+    logar.Informar Senha      
+     logar.Clicar Botao
+    Wait Until Element Is Visible  ${banner_titulo}
+    principal.Carregar Elementos na Tela Principal
+    pesquisar_user.Clicar no Menu Admin
+    Wait Until Element Is Visible  ${field_pesquisa}
+
+CT 009 - Tela ADMIN - Adicionar Registro
+    [tags]   Adicionar Registro
+    navegar.Open Browser To Login Page
+    navegar.Carregar Elementos na Tela Inicial
+    logar.Informar Usuario/Senha Válidos
+    logar.Informar Senha      
+    logar.Clicar Botao
+    Wait Until Element Is Visible  ${banner_titulo}
+    principal.Carregar Elementos na Tela Principal
+    pesquisar_user.Clicar no Menu Admin
+    Wait Until Element Is Visible  ${field_pesquisa}
+
+CT 010 - Tela ADMIN - Alterar Registro
     [tags]   Alterar Registro
     navegar.Open Browser To Login Page
     navegar.Carregar Elementos na Tela Inicial
@@ -43,3 +67,15 @@ CT 008 - Tela ADMIN - Alterar Registro
     Capture Page Screenshot
     alterar_user.Clicar em Alterar
     navegar.Fechar navegador
+
+CT 011 - Tela ADMIN - Excluir Registro
+    [tags]   Deletar Registro
+    navegar.Open Browser To Login Page
+    navegar.Carregar Elementos na Tela Inicial
+    logar.Informar Usuario/Senha Válidos
+    logar.Informar Senha      
+    logar.Clicar Botao
+    Wait Until Element Is Visible  ${banner_titulo}
+    principal.Carregar Elementos na Tela Principal
+    pesquisar_user.Clicar no Menu Admin
+    Wait Until Element Is Visible  ${field_pesquisa}
