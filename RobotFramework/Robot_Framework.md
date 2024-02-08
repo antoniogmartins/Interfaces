@@ -10,6 +10,8 @@ ROBOT FRAMEWORK onde sã gerados relatorios automaticamente a cada execução do
 - RobotFramewok
 
 ## 🔖 Recursos configurados
+Python 
+Robot Framework - versão:
 
 ## 🔖 Estrutura e Distribuição do Código
 - Pasta: casosdetestes => estão disponibilizados o codigo onde são execução dos scritps de testes automatizados
