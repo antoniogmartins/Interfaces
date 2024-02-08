@@ -1,15 +1,11 @@
 # Robot Framework (em andamento)
 
 ## 🔖 Casos de Testes
-- [ ] ------------------------------------------ Tela Incial ------------------------------------------------- 
-- [X] CT001.1 - Acessar Página Inicial
-- [X] CT001.2 - Validar Titulo da Paǵina Inicial
+- [ ] ----------------------------------------- Tela Principal ---------------------------------------------------- 
+- [X] CT003.1 - Filtrar Menu
 
 ## 🚀 Evidências
-🚀**CT001.1 - Acessar Página Inicial**
-
-🚀**CT001.2 - Validar TItulo da Pagina Inicial**
-
+🚀**CT003.1 - Filtrar Menu**
 
 📝 **License**
 
