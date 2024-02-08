@@ -12,4 +12,4 @@ Clicar no Menu
     Click Element       ${field_menu}    
 
 Acessar FiltroPesquisadoMenu
-    input Text          ${field_menu}   Maintenance        
+    input Text          ${field_menu}      Maintenance        
